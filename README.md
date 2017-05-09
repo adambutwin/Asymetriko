@@ -1,0 +1,2 @@
+# Asymetriko
+słupski portal nieruchomości
