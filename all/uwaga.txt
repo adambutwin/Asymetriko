@@ -1,3 +1,0 @@
-wyrzuciæ z orginalu z contact.php:
-
-Warning: Unexpected character in input: '\' (ASCII=92) state=1 in contact.php on line 28
