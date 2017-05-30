@@ -87,7 +87,6 @@ $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // Additional headers
 $headers2 .= 'From: Asymetriko<asymetriko@gmail.com>' . "\r\n";
-$headers2 .= 'Cc: welcome@example.com' . "\r\n"; //do wgladu
 $headers2 .= 'Bcc: welcome2@example.com' . "\r\n"; //do wgladu ale ukryte przed odbiorca
 
 // Send email
