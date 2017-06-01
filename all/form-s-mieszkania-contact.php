@@ -38,7 +38,7 @@ if (!file_exists($path)) {
 
 
 //kopiowanie html'a (wzoru) nieoplacone
-$file = "darmowe-nieoplacone.html";
+$file = "nieoplacone.html";
 $newfile = "mieszkania/$wwwID.html";
 
 if (!copy($file, $newfile)) {
