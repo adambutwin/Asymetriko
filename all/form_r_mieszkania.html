@@ -133,31 +133,31 @@
                                 </div>
                             </div>
                     <h3>Lokalizacja nieruchomości</h3><hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_gmina">Gmina / Miasto *</label>
-                                        <input id="form_gmina" type="text" name="gmina" class="form-control" placeholder="Proszę wpisać Miasto Słupsk lub gminę w powiecie słupskim *" required="required" data-error="Gmina / Miasto jest wymagane." >
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_obreb">Miejscowość (Obręb) *</label>
-                                        <input id="form_obreb" type="text" name="obreb" class="form-control" placeholder="Proszę wpisać obręb ewidencyjny (Miejscowość) *" required="required" data-error="Miejscowość (obręb) jest wymagana." >
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="form_gmina">Gmina / Miasto *</label>
+                              <input id="form_gmina" type="text" name="gmina" class="form-control" placeholder="Proszę wpisać Miasto Słupsk lub gminę w powiecie słupskim *" required="required" data-error="Gmina / Miasto jest wymagane." >
+                                <div class="help-block with-errors"></div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_dzialka">Numer działki *</label>
-                                        <input id="form_dzialka" type="text" name="dzialka" class="form-control" placeholder="Proszę wpisać numer działki ewidencyjnej *" required="required" data-error="Numer działki jest wymagany." >
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_obreb">Miejscowość (Obręb) / ulica *</label>
+                                <input id="form_obreb" type="text" name="obreb" class="form-control" placeholder="Proszę wpisać obręb ewidencyjny (Miejscowość) / ulicę *" required="required" data-error="Miejscowość (obręb) lub ulica jest wymagana." >
+                                <div class="help-block with-errors"></div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="form_dzialka">Numer działki lub numer adresowy*</label>
+                              <input id="form_dzialka" type="text" name="dzialka" class="form-control" placeholder="Proszę wpisać numer działki ewidencyjnej lub nr. adresowy*" required="required" data-error="Numer działki lub numer adresowy jest wymagany." >
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
                     <h3>Informacje ogólne</h3><hr>
                             <div class="row">
                                 <div class="col-md-6">
@@ -199,6 +199,33 @@
                                         <input id="form_zl_m2" type="text" name="zl_m2" class="form-control" placeholder="Wyliczona cena " required="required" data-error="cena jest wymagana.*" readonly >
                                         <div class="help-block with-errors"></div>
                                     </div>
+                                </div>
+                            </div>
+                            <h3>Informacje dodatkowe</h3><hr>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                      <label for="form_rynek">Rynek *</label>
+                                      <select id="form_rynek" type="text" name="rynek" class="form-control" placeholder="Proszę podać typ rynku" required="required" data-error="Typ rynku jest wymagany">
+                                        <option value="">Proszę podać typ rynku</option>
+                                        <option value="Pierwotny">Pierwotny</option>
+                                        <option value="Wtórny">Wtórny</option>
+                                      </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="form_pokoje">Liczba pokoi *</label>
+                                        <input id="form_pokoje" type="text" name="pokoje" class="form-control" placeholder="Proszę wpisać liczbę pokoi *" required="required" data-error="Liczba pokoi jest wymagana.*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                      <label for="form_powierzchnia">Piętro *</label>
+                                      <input id="form_pietro" type="text" name="pietro" class="form-control" placeholder="Proszę wpisać pietro *" required="required" data-error="Pietro jest wymagane.*">
+                                      <div class="help-block with-errors"></div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="row">
