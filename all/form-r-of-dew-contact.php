@@ -99,8 +99,8 @@ else:
 endif;
 
 // configure mejl do mnie
-$from = 'Asymetriko <asymtriko@gmail.com>';
-$sendTo = 'Asymetriko <asymtriko@gmail.com>';
+$from = 'Asymetriko <asymetriko@gmail.com>';
+$sendTo = 'Asymetriko <asymetriko@gmail.com>';
 $subject = 'Zgłoszenie rozszerzone oferty dweloperskie ID: '.$userID.' - '.$name3.'';
 $fields = array('name' => 'Imię i nazwisko', 'typ_ogloszeniodawcy' => 'Typ ogłoszeniodawcy', 'phone' => 'Telefon','gmina' => 'Gmina/Miasto','obreb' => 'Obręb/ulica','dzialka' => 'Działka/adres','tytul' => 'Tytuł','typ_nieruchomosci' => 'Typ nieruchomosci','powierzchnia' => 'Powierzchnia','cena' => 'Cena','zl_m2' => 'zł/m2', 'email' => 'Email', 'rynek' => 'Rynek', 'pokoje' => 'Pokoje', 'ilosc_kond' => 'Ilość kondygnacji', 'powierzchnia_dz' => 'Powierzchnia działki', 'rodz_zab' => 'Rodziaj zabudowy','opis' => 'Opis','str_dom_inwestycji' => 'Str. domowa inwestycji'); // array variable name => Text to appear in email
 $okMessage = 'Formularz został wysłany. Proszę sprawdzić swoją skrzynkę pocztową w celu dokończenia procesu.';
