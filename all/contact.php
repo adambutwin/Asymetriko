@@ -95,8 +95,8 @@ else:
 endif;
 
 // configure mejl do mnie
-$from = 'Asymetriko <asymtriko@gmail.com>';
-$sendTo = 'Asymetriko <asymtriko@gmail.com>';
+$from = 'Asymetriko <asymetriko@gmail.com>';
+$sendTo = 'Asymetriko <asymetriko@gmail.com>';
 $subject = 'Zgłoszenie standardowe dz. rolne ID: '.$userID.' - '.$name3.'';
 $fields = array('name' => 'Imię i nazwisko', 'typ_ogloszeniodawcy' => 'Typ ogłoszeniodawcy', 'phone' => 'Telefon','gmina' => 'Gmina/Miasto','obreb' => 'Obręb','dzialka' => 'Działka','tytul' => 'Tytuł','typ_transakcji' => 'Typ transakcji','powierzchnia' => 'Powierzchnia','cena' => 'Cena','zl_m2' => 'zł/m2', 'email' => 'Email', 'opis' => 'Opis'); // array variable name => Text to appear in email
 $okMessage = 'Formularz został wysłany. Proszę sprawdzić swoją skrzynkę pocztową w celu dokończenia procesu.';
