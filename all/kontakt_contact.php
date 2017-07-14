@@ -1,8 +1,8 @@
 <?php
 $name3 = strip_tags(htmlspecialchars($_POST['name']));
 // configure mejl do mnie
-$from = 'Asymetriko <adam.butwin@gmail.com>';
-$sendTo = 'Asymetriko <adam.butwin@gmail.com>';
+$from = 'Asymetriko <asymetriko@gmail.com>';
+$sendTo = 'Asymetriko <asymetriko@gmail.com>';
 $subject = 'Wiadomość z asymetriko kontakt od: '.$name3.'';
 $fields = array('name' => 'Imię i nazwisko', 'typ_ogloszeniodawcy' => 'Typ ogłoszeniodawcy', 'phone' => 'Telefon','gmina' => 'Gmina/Miasto','obreb' => 'Obręb','dzialka' => 'Działka','tytul' => 'Tytuł','typ_transakcji' => 'Typ transakcji','powierzchnia' => 'Powierzchnia','cena' => 'Cena','zl_m2' => 'zł/m2', 'email' => 'Email', 'opis' => 'Wiadomość'); // array variable name => Text to appear in email
 $okMessage = 'Wiadomość została wysłana';
